@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "link": "^1.5.1",
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^3.3.1"
+  },
+  "name": "a02-functions-agaresd47",
+  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "author": "Agaresd47",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module"
+}
